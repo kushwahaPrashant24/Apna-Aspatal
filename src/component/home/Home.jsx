@@ -1,9 +1,10 @@
 import React from 'react'
+import Homeone from './Homecontent/homeone'
 
 function Home  ()  {
   return (
-    <div>
-      home
+    <div id='Home'>
+      <Homeone />
     </div>
   )
 }
