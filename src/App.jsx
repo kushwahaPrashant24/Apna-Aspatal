@@ -9,7 +9,7 @@ import Home from './component/home/Home';
 import Doctor from './component/Doctor/Doctor';
 import Appointment from "./component/Appointment/Appointment";
 import About from "./component/About/About";
-import Contact from "./component/Contact/Contact"
+import Contact from "./component/Contact/Contact";
 
 
 const router = createBrowserRouter([
