@@ -1,0 +1,57 @@
+#homeone {
+
+  height: 90vh;
+  padding: 0px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #Heading {
+   
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 50px;
+     p{
+
+        font-size: 3.5rem;
+        font-weight: 900;
+     }
+
+     h1{
+        font-size: 3rem;
+     }
+
+     #about{
+        font-size: 1.5rem;
+        font-weight: 700;
+     }
+
+  }
+
+  Button {
+    height: 60px;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    background-color: rgb(53, 65, 61);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#img {
+  width: 50vw;
+  img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 120px;
+  }
+}

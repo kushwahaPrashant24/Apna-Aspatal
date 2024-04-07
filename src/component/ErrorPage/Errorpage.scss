@@ -1,0 +1,14 @@
+#errorpage{
+    height: 100vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   h1{
+      font-size: 5rem;
+   }
+   p{
+    font-size: 1.5em;
+   }
+}
