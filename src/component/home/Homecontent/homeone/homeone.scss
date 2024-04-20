@@ -2,13 +2,12 @@
 
   height: 90vh;
   padding: 0px;
- 
   display: flex;
   align-items: center;
   justify-content: center;
+  color: rgb(23, 74, 57);
 
   #Heading {
-   
     height: 70vh;
     width: 50vw;
     display: flex;
@@ -17,10 +16,11 @@
     flex-direction: column;
     padding-top: 40px;
     padding-left: 50px;
-     p{
 
+     p {
         font-size: 3.5rem;
         font-weight: 900;
+        color: rgb(77, 75, 75);
      }
 
      h1{
