@@ -22,7 +22,7 @@ function homeone () {
       <Button variant="contained"><Link to="/Appointment" style={{ textDecoration: 'none', color: 'inherit'}}>Book Appointment</Link></Button>
     </Stack>
         </div>
-        <div id='img'><img src={Doctor} /></div>
+        <div id='imge'><img src={Doctor} /></div>
     </div>
   )
 }
