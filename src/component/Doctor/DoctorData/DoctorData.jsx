@@ -10,6 +10,7 @@ function createCards(Doct) {
         key= {Doct.id}
         name= {Doct.name} 
         specialization= {Doct.specialization}
+        star= {Doct.star}
         review= {Doct.review}
     />
 }
