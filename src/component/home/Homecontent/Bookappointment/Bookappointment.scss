@@ -1,0 +1,38 @@
+
+
+  .ba-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ba-text-content{
+      padding-left: 50px;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h3{
+        font-size: 3rem;
+        color: rgb(53, 65, 61);
+      }
+
+      #ba-content{
+        p{
+          font-size: 1.3rem;
+          font-weight: 900;
+          color: rgb(53, 65, 61);
+        }
+      }
+
+      Button {
+        height: 60px;
+        margin-top: 40px;
+        font-size: 1.3rem;
+        background-color: rgb(53, 65, 61);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    }
