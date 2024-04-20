@@ -1,0 +1,45 @@
+#DoctorData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    color: rgb(23, 74, 57);
+}
+
+
+#Card{
+    display: flex;
+    background-color: rgb(191, 214, 225);
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 30px;
+    position: relative;
+    #img{
+       
+        img{
+            height: 100%;
+            width: 300px;
+        } 
+    }
+
+    #Data{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2{
+           text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        h3{
+            font-size: 1.5rem;
+            font-weight: 900;
+
+        }
+
+        Button{
+            background-color:  rgb(23, 74, 57);
+        }
+    }
+}
