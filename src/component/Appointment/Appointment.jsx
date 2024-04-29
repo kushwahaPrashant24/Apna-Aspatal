@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Appointment.scss";
+import AppointmentForm from './AppointmentForm';
 
 export default function Appointment  () {
   return (
-    <div>Appointment</div>
+    <div id='Appointment'>
+      <h1>BOOK APPOINTMENT</h1>
+      <AppointmentForm />
+    </div>
   )
 }
