@@ -1,33 +1,33 @@
 import React from "react";
+import BasicDatePicker from "./Date.jsx"
+
 
 function AppointmentForm() {
   return (
-    <div>
+    <div id="AppointmentForm">
       <form>
         <label>
-          Name:
+          Full Name:
           <input type="text" name="name" />
         </label>
         <label>
           Age:
           <input type="text" name="name" />
         </label>
+        
         <label>
-          Gender:
-          <select>
-          <option value="mango">Select Gender</option>
-            <option value="grapefruit">Male</option>
-            <option value="lime">Female</option>
-            <option value="coconut">Other</option>
-            
-          </select>
+        Contact Number:
+
           <input type="text" name="name" />
         </label>
         <label>
-          Name:
+          E-mail:
           <input type="text" name="name" />
         </label>
-        <textarea>Hello there, this is some text in a text area</textarea>
+        /**Appointment Details*/
+      
+        
+        <textarea></textarea>
         <input type="submit" value="Submit" />
       </form>
     </div>
