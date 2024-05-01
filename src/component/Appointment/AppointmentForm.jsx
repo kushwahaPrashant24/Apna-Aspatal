@@ -9,11 +9,18 @@ function AppointmentForm() {
           <input type="text" name="name" />
         </label>
         <label>
-          Name:
+          Age:
           <input type="text" name="name" />
         </label>
         <label>
-          Name:
+          Gender:
+          <select>
+          <option value="mango">Select Gender</option>
+            <option value="grapefruit">Male</option>
+            <option value="lime">Female</option>
+            <option value="coconut">Other</option>
+            
+          </select>
           <input type="text" name="name" />
         </label>
         <label>
