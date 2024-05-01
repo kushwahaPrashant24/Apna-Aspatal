@@ -15,17 +15,19 @@ function AppointmentForm() {
         <label>
           Gender:
           <select>
-          <option value="mango">Select Gender</option>
-            <option value="grapefruit">Male</option>
-            <option value="lime">Female</option>
-            <option value="coconut">Other</option>
-            
+          <option value="Select Gender">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
           </select>
-          <input type="text" name="name" />
         </label>
         <label>
-          Name:
-          <input type="text" name="name" />
+          Contact no.:
+          <input type="number" name="Contact no" />
+        </label>
+        <label>
+          E-mail:
+          <input type="char" name="E-mail" />
         </label>
         <textarea>Hello there, this is some text in a text area</textarea>
         <input type="submit" value="Submit" />
