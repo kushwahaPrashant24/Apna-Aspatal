@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  border: 3px solid rgb(164, 213, 229);
+  border-radius: 15px;
+  box-shadow: 5px 10px rgb(175, 212, 224);
+  width: 50vw;
   height: 60vh;
   form {
     display: flex;
