@@ -37,7 +37,8 @@ function Appoint() {
          <input type="Time" name="Time" />
          </label>
          <label>
-         Reason for Visit
+         <span id="textarea">Reason for Visit:</span>
+         
           <textarea/>
         </label>
         <div id="button">

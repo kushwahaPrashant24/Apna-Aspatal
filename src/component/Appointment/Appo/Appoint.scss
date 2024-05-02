@@ -31,10 +31,19 @@
         width: 39vw;
         display: flex;
         justify-content: center;
+        padding: 3px;
         Button {
             width: 100px;
             height: 35px;
+            font-size: 1.2rem;
+            font-weight: 600;
     }   
+    }
+    
+    textarea{
+        width: 25vw;
+        columns: 3;
+        
     }
   }
 }
