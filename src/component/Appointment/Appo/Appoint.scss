@@ -1,0 +1,37 @@
+#Appoint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  height: 60vh;
+  form {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 4;
+    label {
+      margin: 5px;
+      font-size: 2rem;
+      background-color: rgb(218, 239, 251);
+      display: flex;
+      justify-content: space-between;
+      input {
+        background-color: none;
+        width: 25vw;
+        height: 35px;
+      }
+      select {
+        width: 25.3vw;
+      }
+    }
+    #button{
+        width: 39vw;
+        display: flex;
+        justify-content: center;
+        Button {
+            width: 100px;
+            height: 35px;
+    }   
+    }
+  }
+}

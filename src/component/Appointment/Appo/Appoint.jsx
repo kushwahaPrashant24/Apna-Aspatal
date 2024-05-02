@@ -1,16 +1,19 @@
 import React from "react";
+import "./Appoint.scss";
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
 
 function Appoint() {
   return (
-    <div>
+    <div id="Appoint">
       <form>
       
         <label>
-          Name:
-          <input type="text" name="name" />
+          <span>Name:</span>
+          <input type="text" name="name"/>
         </label>
         <label>
-          Age:
+          <span id="twp">Age:</span>
           <input type="text" name="name" />
         </label>
         <label>
@@ -18,6 +21,7 @@ function Appoint() {
           <select>
             <option value="Select Gender">Select Gender</option>
             <option value="Male">Male</option>
+            <option value="Male">Female</option>
             <option selected value="Other">
               Other
             </option>
@@ -36,7 +40,11 @@ function Appoint() {
          Reason for Visit
           <textarea/>
         </label>
-        <input type="submit" value="Submit" />
+        <div id="button">
+        <Stack direction="row" spacing={2}>
+      <Button type="submit" value="Submit"  variant="contained">Submit</Button>
+    </Stack>
+    </div>
       </form>
     </div>
   );
